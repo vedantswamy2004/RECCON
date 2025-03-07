@@ -13,6 +13,7 @@ emotion_counter = Counter()
 speaker_counter = Counter()
 dialogue_lengths = []
 
+print(data.items())
 # Process dataset
 for dialogue_id, conversations in data.items():
     for dialogue in conversations:
